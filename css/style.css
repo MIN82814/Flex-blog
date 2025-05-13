@@ -99,7 +99,7 @@ table {
     .blog p{
       display: -webkit-box;
       -webkit-box-orient: vertical;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp:2;
       overflow: hidden;
     }
     
@@ -133,10 +133,8 @@ table {
 
     @media screen and (max-width:768px){
       .blog{
-        max-width: 100%;
-        justify-content: center;
-        gap: 16px;
-        padding: 0 12px;
+        max-width: 90%;
+        gap: 16px 0 ;
     }
       .blog li{
        flex: 0 0 100%; 

@@ -18,15 +18,19 @@ a {
 }
 
 .blue {
-  color: #0027D5;
+  color: #0027D5 !important;
+}
+
+.fd-2 {
+  font-size: 16px !important;
 }
 
 .fs-3 {
-  font-size: 24px;
+  font-size: 24px !important;
 }
 
 .fs-4 {
-  font-size: 28px;
+  font-size: 28px !important;
 }
 
 .blog {
@@ -90,7 +94,6 @@ a {
   border-radius: 40px;
   background: #0027D5;
   color: #fff;
-  font-size: 16px;
   margin-left: 8px;
   text-align: center;
 }
